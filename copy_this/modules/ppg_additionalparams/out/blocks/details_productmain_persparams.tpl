@@ -14,7 +14,7 @@
       
     [{/foreach}]
 [{* Field with the usual notice textarea, but fitted to the addparams layout *}]      
-      <tr">
+      <tr>
         <td style="text-align:right;vertical-align:top;">[{ oxmultilang ident="PPG_ADDPARAMS_LABEL" }]:</td>
         <td><textarea id="persistentParam" name="persparam[details]" cols="35" rows="3">[{ $oDetailsProduct->aPersistParam.text }]</textarea></td>
       </tr>
